@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#main{
+    height: 70vh;
+    width: 80vw;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(275deg, #ec5143 22%, #073AFFFF 100%);
+    display: flex;
+    }
+
+#container{
+    margin-left: 50px;
+    width: 500px;
+    color:white;
+    font-size: large;
+}
+
+img{
+    width:600px;
+    height: 300px;
+}
+.shoe{
+    border: 10px solid gray;
+    width: 700px;
+    display: flex;
+}
+.shoe .didi{
+    border: 10px solid blueviolet;
+    padding-left: 250px;
+    height:250px;
+    padding-top: 200px;
+}
+
+.wer{
+    height: 250px;
+    border: 10px solid cyan;
+}
